@@ -38,7 +38,7 @@ class SignupScreen extends StatelessWidget {
           ),
           Stack(
             children: [
-              CircleAvatar(
+              const CircleAvatar(
                 radius: 64,
                 backgroundColor: borderColor,
                 child: Icon(
@@ -51,14 +51,14 @@ class SignupScreen extends StatelessWidget {
                 left: 80,
                 child: IconButton(
                   onPressed: () {},
-                  icon: Icon(
+                  icon: const Icon(
                     Icons.add_a_photo,
                   ),
                 ),
               )
             ],
           ),
-          SizedBox(
+          const SizedBox(
             height: 20,
           ),
           Padding(
@@ -105,7 +105,7 @@ class SignupScreen extends StatelessWidget {
               ),
             ),
           ),
-          SizedBox(
+          const SizedBox(
             height: 15,
           ),
           Row(
